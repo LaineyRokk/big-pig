@@ -12,67 +12,49 @@
       <div class="jumbotron">
         <h1>Click the button to play pig dice with friends!</h1>
       </div>
+      <p id="placeholder">
+      </p>
+      <button id="button">Roll Them Bones</button>
+      <!--<script src="dice.js"></script>
+      <script src="ui.js"></script>-->
       <div class="row">
-        <div class="col-md-4">
-          <button type="button">Roll</button>
+        <div class="col-md-2">
+          <!--<input type="button" value="Throw Dice" onclick="getRandom();">-->
+          <button onclick="getRandom()">
+          <div id="dice_container"></div>
+        <!--  <button type="button">Roll</button>-->
         </div>
-        <div class="col-md-4" id="border">
+        <div class="col-md-5" id="border">
           <p>p1</p>
         </div>
-        <div class="col-md-4" id="border">
+        <div class="col-md-5" id="border">
           <p>p2</p>
         </div>
       </div>
-        <div class="row">
-          <div class="col-md-4">
-          </div>
-          <div class="col-md-4" id="border">
-            <p>p3</p>
-          </div>
-          <div class="col-md-4" id="border">
-            <p>p4</p>
-          </div>
+      <br><br>
+<!--SCORECARD-->
+      <h3>Scorecard</h3>
+    <div class="scoreborder">
+      <div class="row">
+        <div class="col-md-2" id="border">
+          <p>p1</p>
         </div>
-    <!--  <div class="sidebar">
-        <div class="row">
-          <div class="col-md-3">
-            <p>p1</p>
-          </div>
-          <div class="col-md-4">
-          </div>
-          <div class="col-md-5"
-          </div>
+        <div class="col-md-5" id="border">
         </div>
-        <div class="row">
-          <div class="col-md-3">
-            <p>p2</p>
-          </div>
-          <div class="col-md-4">
-          </div>
-          <div class="col-md-5"
-          </div>
+        <div class="col-md-5" id="border">
         </div>
-        <div class="row">
-          <div class="col-md-3">
-            <p>p3</p>
-          </div>
-          <div class="col-md-4">
-          </div>
-          <div class="col-md-5"
-          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2" id="border">
+          <p>p2</p>
         </div>
-        <div class="row">
-          <div class="col-md-3">
-            <p>p4</p>
-          </div>
-          <div class="col-md-4">
-          </div>
-          <div class="col-md-5"
-          </div>
+        <div class="col-md-5" id="border">
         </div>
-      </div> -->
-
-
+        <div class="col-md-5" id="border">
+        </div>
+      </div>
+      </div>
+    </div>
     </div>
   </body>
 </html>
